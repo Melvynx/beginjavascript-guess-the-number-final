@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button {
+  @apply inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-neutral-900 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-800 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-neutral-900 text-neutral-50 hover:bg-neutral-900/90 h-10 px-4 py-2;
+}
+
+input {
+  @apply flex h-10 w-full rounded-md border border-neutral-400 bg-neutral-50 px-3 py-2 text-sm ring-offset-neutral-50 placeholder:text-neutral-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-800 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50;
+}
